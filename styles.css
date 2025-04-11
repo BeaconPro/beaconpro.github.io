@@ -1,5 +1,47 @@
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #007acc, #003f66);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 2rem 0;
+            background: #005f99;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            margin: 2rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #007acc;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            margin: 0 0.5rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            background-color: #005f99;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background: #003f66;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
