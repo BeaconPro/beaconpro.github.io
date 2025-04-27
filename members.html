@@ -17,49 +17,65 @@
     .user-card p {
       margin: 5px 0;
     }
+    h1 {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <h1>JSON Data Front-End Display</h1>
+  <h1>Members</h1>
   <div id="json-container"></div>
 
   <script>
     // JSON Data
-    const jsonData = [
-      {
-        "login": "banana-pusheen",
-        "name": null,
-        "tfa_enabled": true,
-        "is_public": false,
-        "role": "Member",
-        "last_active": "2025-04-17T19:36:48.000-04:00",
-        "saml_name_id": null,
-        "tfa_level": "secure",
-        "organization_roles_count": 0
-      },
-      {
-        "login": "Beacon-Co",
-        "name": null,
-        "tfa_enabled": true,
-        "is_public": true,
-        "role": "Member",
-        "last_active": "2025-04-13T13:29:55.000-04:00",
-        "saml_name_id": null,
-        "tfa_level": "secure",
-        "organization_roles_count": 0
-      },
-      {
-        "login": "Deadlock247",
-        "name": null,
-        "tfa_enabled": false,
-        "is_public": false,
-        "role": "Member",
-        "last_active": "2025-04-12T09:45:01.000-04:00",
-        "saml_name_id": null,
-        "tfa_level": "disabled",
-        "tfa_required_by": "2025-05-23T20:00:00.000-04:00",
-        "organization_roles_count": 0
-      }
+    const jsonData = [[{
+"login":"banana-pusheen",
+"name":null,
+"tfa_enabled":true,
+"is_public":false,
+"role":"Member",
+"last_active":"2025-04-17T19:36:48.000-04:00",
+"saml_name_id":null,
+"tfa_level":"secure",
+"organization_roles_count":0},
+{"login":"Beacon-Co",
+"name":null,
+"tfa_enabled":true,
+"is_public":true,
+"role":"Member",
+"last_active":"2025-04-13T13:29:55.000-04:00",
+"saml_name_id":null,
+"tfa_level":"secure",
+"organization_roles_count":0},
+{"login":"Deadlock247",
+"name":null,
+"tfa_enabled":false,
+"is_public":false,
+"role":"Member",
+"last_active":"2025-04-12T09:45:01.000-04:00",
+"saml_name_id":null,
+"tfa_level":"disabled",
+"tfa_required_by":"2025-05-23T20:00:00.000-04:00",
+"organization_roles_count":0},
+{"login":"Meisacoder123",
+"name":null,"tfa_enabled":true,
+"is_public":true,
+"role":"Owner",
+"last_active":"2025-04-25T20:11:27.000-04:00",
+"saml_name_id":null,
+"tfa_level":"secure",
+"organization_roles_count":0},
+    {
+    "login":"Zee-Code-3",
+    "name":null,
+    "tfa_enabled":false,
+    "is_public":false,
+    "role":"Owner",
+    "last_active":"2025-04-25T16:38:01.000-04:00",
+    "saml_name_id":null,
+    "tfa_level":"disabled","tfa_required_by":"2025-05-13T20:00:00.000-04:00",
+    "organization_roles_count":0
+  }]
     ];
 
     // Display JSON Data
