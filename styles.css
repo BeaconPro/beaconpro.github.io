@@ -46,7 +46,19 @@
             font-size: 0.9rem;
         }
         button {
-            color: blue;
+    background: #007acc;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #005f99;
+}
+
         }
         a {
             text-decoration: none;
